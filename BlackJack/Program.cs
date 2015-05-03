@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace BlackJack
 {
@@ -10,6 +7,11 @@ namespace BlackJack
     {
         static void Main(string[] args)
         {
+        }
+
+        static bool TestScenario_1_OK()
+        {
+            return true;
         }
     }
 }
