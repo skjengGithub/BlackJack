@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 namespace BlackJack
 {
     [Binding]
-    public class BlackJackTestScenario_1Steps
+    public class BlackJackTestScenariosSteps
     {
         [Given(@"the default card deck")]
         public void GivenTheDefaultCardDeck()

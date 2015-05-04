@@ -19,21 +19,21 @@ namespace BlackJack
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute(": BlackJackTestScenario_1")]
-    public partial class BlackJackTestScenario_1Feature
+    [NUnit.Framework.DescriptionAttribute(": BlackJackTestScenarios")]
+    public partial class BlackJackTestScenariosFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "BlackJackTestScenario_1.feature"
+#line 1 "BlackJackTestScenarios.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), ": BlackJackTestScenario_1", "In order to test if the basic unit functions work fine together\r\nAs a careful use" +
-                    "r\r\nI want to be to\r\n\r\nld the result of running test scenario 1", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), ": BlackJackTestScenarios", "In order to test if the basic unit functions work fine together\r\nAs a careful use" +
+                    "r\r\nI want to be to\r\n\r\nld the result of running all test scenarios", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

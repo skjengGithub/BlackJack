@@ -48,25 +48,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlackJackTest.cs" />
-    <Compile Include="BlackJackTestScenario_1Steps.cs" />
+    <Compile Include="BlackJackTestScenariosSteps.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="ComputerPlayer.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="HumanPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BlackJackTestScenario_1.feature.cs">
+    <Compile Include="BlackJackTestScenarios.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BlackJackTestScenario_1.feature</DependentUpon>
+      <DependentUpon>BlackJackTestScenarios.feature</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="BlackJackTestScenario_1.feature">
+    <None Include="BlackJackTestScenarios.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>BlackJackTestScenario_1.feature.cs</LastGenOutput>
+      <LastGenOutput>BlackJackTestScenarios.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
