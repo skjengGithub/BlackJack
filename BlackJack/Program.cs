@@ -7,11 +7,7 @@ namespace BlackJack
     {
         static void Main(string[] args)
         {
-        }
-
-        static bool TestScenario_1_OK()
-        {
-            return true;
+            Debug.Assert(BlackJackTest.Scenario_1_OK());
         }
     }
 }
