@@ -39,6 +39,26 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
+        public void TestCardDeck()
+        {
+            Card[] cards = { 
+				new Card(Suit.SPADE, 1),
+                new Card(Suit.HEART, 11),
+                new Card(Suit.DIAMOND, 10)
+                           };
+            Deck deck = new Deck(cards);
+            Card c = deck.DealACard();
+            Assert.IsTrue((c.suit == Suit.SPADE) &&
+               (c.rank == 1));
+            c = deck.DealACard();
+            Assert.IsTrue((c.suit == Suit.HEART) &&
+                (c.rank == 11));
+            c = deck.DealACard();
+            Assert.IsTrue((c.suit == Suit.DIAMOND) &&
+                (c.rank == 10));
+        }
+
+        [TestMethod]
         public void TestHumanPlayer()
         {
             HumanPlayer player = new HumanPlayer();

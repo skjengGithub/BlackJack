@@ -15,6 +15,18 @@ namespace BlackJack
             top = 0;
         }
 
+        public Deck(Card[] card)
+        {
+            int nCards = card.Length;
+            this.cards = new Card[nCards];
+            int i;
+            for (i = 0; i < nCards; ++i)
+            {
+                this.cards[i] = card[i];
+            }
+        }
+
+
         public Card DealACard()
         {
             return cards[top++];
